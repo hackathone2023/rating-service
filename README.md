@@ -1,1 +1,1 @@
-# rating-service
+# spring-azure-demo
