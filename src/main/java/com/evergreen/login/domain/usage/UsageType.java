@@ -7,9 +7,10 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data
 @NoArgsConstructor
-public class Usage {
+public class UsageType {
 
-	private String[] label;
-	private String[] data;
-
+	private Usage weekly;
+	private Usage monthly;
+	private Usage quarterly;
+	private Usage yearly;
 }

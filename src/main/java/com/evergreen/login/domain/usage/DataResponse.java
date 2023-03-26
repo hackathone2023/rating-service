@@ -7,9 +7,11 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data
 @NoArgsConstructor
-public class Usage {
+public class DataResponse {
 
-	private String[] label;
-	private String[] data;
-
+	private UsageType chemical;
+	private UsageType energy;
+	private UsageType fabric;
+	private UsageType rawMaterials;
+	private UsageType water;
 }
